@@ -12,13 +12,13 @@
     --card-foreground: 210 40% 98%;
     --popover: 220 15% 12%;
     --popover-foreground: 210 40% 98%;
-    --primary: 263 70% 76%;
-    --primary-foreground: 220 15% 10%;
-    --secondary: 199 89% 48%;
+    --primary: 207 90% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 100% 63%;
     --secondary-foreground: 210 40% 98%;
     --muted: 220 15% 20%;
     --muted-foreground: 215 20% 65%;
-    --accent: 328 86% 70%;
+    --accent: 200 100% 70%;
     --accent-foreground: 210 40% 98%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
@@ -61,12 +61,12 @@
 
   .glow-box {
     box-shadow:
-      0 0 20px rgba(155, 135, 245, 0.3),
-      0 0 40px rgba(155, 135, 245, 0.1);
+      0 0 20px rgba(30, 144, 255, 0.3),
+      0 0 40px rgba(30, 144, 255, 0.1);
   }
 
   .neon-border {
     border: 2px solid;
-    border-image: linear-gradient(135deg, #9b87f5, #0ea5e9, #d946ef) 1;
+    border-image: linear-gradient(135deg, #1e90ff, #4169e1, #00bfff) 1;
   }
 }
